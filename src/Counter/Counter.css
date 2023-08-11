@@ -1,0 +1,46 @@
+.counterButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    border: none;
+    vertical-align: middle;
+    horiz-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 100px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.counterButton:hover {
+    background-color: #2980b9;
+}
+
+.count{
+    align-items: center;
+    vertical-align: middle;
+    font-size: 100px;
+    font-weight: bold;
+    color: #2ecc71;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.resetButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 100px;
+}
+
+.resetButton {
+    background-color: #0056b3;
+}
